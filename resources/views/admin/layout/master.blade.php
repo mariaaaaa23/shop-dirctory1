@@ -225,6 +225,39 @@
                     <p>لیست</p>
                   </a>
                 </li>
+                <li class="nav-item">
+                </li>
+              </ul>
+            </li>
+
+
+
+                <li class="nav-item has-treeview">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fa fa-pie-chart"></i>
+                    <p>
+                       شهر ها
+                      <i class="right fa fa-angle-left"></i>
+                    </p>
+                  </a>
+                  <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                      <a href="{{ route('cities.create') }}" class="nav-link">
+                        <i class="fa fa-circle-o nav-icon"></i>
+                        <p>ایجاد</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="{{ route('cities.index') }}" class="nav-link">
+                        <i class="fa fa-circle-o nav-icon"></i>
+                        <p>لیست</p>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                  </ul>
+                </li>
+                  
               
 
 
@@ -232,13 +265,14 @@
 
 
             
-          </ul>
-        </nav>
-        <!-- /.sidebar-menu -->
-      </div>
-    </div>
-    <!-- /.sidebar -->
-  </aside>
+                  
+                  </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+              </div>
+            </div>
+            <!-- /.sidebar -->
+          </aside>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">

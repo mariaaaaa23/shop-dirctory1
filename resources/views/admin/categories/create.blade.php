@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="title">اسلاگ</label>
+                    <label for="slug">اسلاگ</label>
                     <input type="text" class="form-control" name="slug" id="slug" >
                 </div>
 

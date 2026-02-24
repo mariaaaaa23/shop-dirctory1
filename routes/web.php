@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\categoryController;
+use App\Http\Controllers\Admin\CityController;
 use App\Http\Controllers\Client\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +17,5 @@ Route::prefix('/adminpanel')->group(function(){
     });
 
     Route::resource('/categories', categoryController::class);
+    Route::resource('/cities', CityController::class);
 });
