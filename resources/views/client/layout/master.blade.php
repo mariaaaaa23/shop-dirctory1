@@ -263,14 +263,9 @@
           </div>
 
           <div class="offcanvas-body justify-content-between">
-            <select class="filter-categories border-0 mb-0 me-5">
-              <option>Shop by Category</option>
-              <option>Clothes</option>
-              <option>Food</option>
-              <option>Food</option>
-              <option>Toy</option>
-            </select>
 
+            @include('client.layout.menu')    
+            
             <ul class="navbar-nav menu-list list-unstyled d-flex gap-md-3 mb-0">
               <li class="nav-item">
                 <a href="/client/index.html" class="nav-link active">Home</a>

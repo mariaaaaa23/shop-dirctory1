@@ -200,272 +200,38 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a href="/admin/pages/widgets.html" class="nav-link">
-                <i class="nav-icon fa fa-th"></i>
-                <p>
-                  ویجت‌ها
-                  <span class="right badge badge-danger">جدید</span>
-                </p>
-              </a>
-            </li>
+               
+            
+
+
             <li class="nav-item has-treeview">
               <a href="#" class="nav-link">
                 <i class="nav-icon fa fa-pie-chart"></i>
                 <p>
-                  چارت‌ها
+                  دسته بندی ها
                   <i class="right fa fa-angle-left"></i>
                 </p>
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="/admin/pages/charts/chartjs.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>نمودار ChartJS</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/charts/flot.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>نمودار Flot</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/charts/inline.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>نمودار Inline</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item has-treeview">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-tree"></i>
-                <p>
-                  اشیای گرافیکی
-                  <i class="fa fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="/admin/pages/UI/general.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>عمومی</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/UI/icons.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>آیکون‌ها</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/UI/buttons.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>دکمه‌ها</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/UI/sliders.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>اسلایدر‌ها</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item has-treeview">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-edit"></i>
-                <p>
-                  فرم‌ها
-                  <i class="fa fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="/admin/pages/forms/general.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>اجزا عمومی</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/forms/advanced.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>پیشرفته</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/forms/editors.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>ویشرایشگر</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item has-treeview">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-table"></i>
-                <p>
-                  جداول
-                  <i class="fa fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="/admin/pages/tables/simple.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>جداول ساده</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/tables/data.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>جداول داده</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-header">مثال‌ها</li>
-            <li class="nav-item">
-              <a href="/admin/pages/calendar.html" class="nav-link">
-                <i class="nav-icon fa fa-calendar"></i>
-                <p>
-                  تقویم
-                  <span class="badge badge-info right">2</span>
-                </p>
-              </a>
-            </li>
-            <li class="nav-item has-treeview">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-envelope-o"></i>
-                <p>
-                  ایمیل‌ باکس
-                  <i class="fa fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="/admin/pages/mailbox/mailbox.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>اینباکس</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/mailbox/compose.html" class="nav-link">
+                  <a href="{{ route('categories.create') }}" class="nav-link">
                     <i class="fa fa-circle-o nav-icon"></i>
                     <p>ایجاد</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/admin/pages/mailbox/read-mail.html" class="nav-link">
+                  <a href="{{ route('categories.index') }}" class="nav-link">
                     <i class="fa fa-circle-o nav-icon"></i>
-                    <p>خواندن</p>
+                    <p>لیست</p>
                   </a>
                 </li>
-              </ul>
-            </li>
-            <li class="nav-item has-treeview">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-book"></i>
-                <p>
-                  صفحات
-                  <i class="fa fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/invoice.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>سفارشات</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/profile.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>پروفایل</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/login.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>صفحه ورود</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/register.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>صفحه عضویت</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/lockscreen.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>قفل صفحه</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item has-treeview">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-plus-square-o"></i>
-                <p>
-                  بیشتر
-                  <i class="fa fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/404.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>ارور 404</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/500.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>ارور 500</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/pages/examples/blank.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>صفحه خالی</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="/admin/starter.html" class="nav-link">
-                    <i class="fa fa-circle-o nav-icon"></i>
-                    <p>صفحه شروع</p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-header">متفاوت</li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-file"></i>
-                <p>مستندات</p>
-              </a>
-            </li>
-            <li class="nav-header">برچسب‌ها</li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-circle-o text-danger"></i>
-                <p class="text">مهم</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-circle-o text-warning"></i>
-                <p>هشدار</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon fa fa-circle-o text-info"></i>
-                <p>اطلاعات</p>
-              </a>
-            </li>
+              
+
+
+
+
+
+            
           </ul>
         </nav>
         <!-- /.sidebar-menu -->
@@ -496,47 +262,60 @@
 
     <!-- Main content -->
     <section class="content">
-        <div class="container-fluid">
-          @include('admin.layout.notification')
-          @yield('content')
-  
-  
-      </section>
-      <!-- /.content -->
+      <div class="container-fluid">
+        @include('admin.layout.notification')
+        @yield('content')
+
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-sm-none d-md-block">
+      Anything you want
     </div>
-    <!-- /.content-wrapper -->
-  
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-      <!-- Control sidebar content goes here -->
-    </aside>
-
-
+    <!-- Default to the left -->
+    <strong>CopyLeft &copy; 2018 <a href="http://github.com/hesammousavi/">حسام موسوی</a>.</strong>
+  </footer>
+</div>
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="/admin/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
+<script src="/admin/dist/js/adminlte.js"></script>
 
 <!-- OPTIONAL SCRIPTS -->
-<script src="dist/js/demo.js"></script>
+<script src="/admin/dist/js/demo.js"></script>
 
 <!-- PAGE PLUGINS -->
 <!-- SparkLine -->
-<script src="plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="/admin/plugins/sparkline/jquery.sparkline.min.js"></script>
 <!-- jVectorMap -->
-<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="/admin/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="/admin/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 <!-- SlimScroll 1.3.0 -->
 <script src="/admin/plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- ChartJS 1.0.2 -->
-<script src="plugins/chartjs-old/Chart.min.js"></script>
+<script src="/admin/plugins/chartjs-old/Chart.min.js"></script>
 
 <!-- PAGE SCRIPTS -->
-<script src="dist/js/pages/dashboard2.js"></script>
+<script src="/admin/dist/js/pages/dashboard2.js"></script>
+
+@yield('scripts')
+
 </body>
 </html>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\categoryController;
 use App\Http\Controllers\Client\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,4 +14,6 @@ Route::prefix('/adminpanel')->group(function(){
     Route::get('/', function(){
         return view('admin.home');
     });
+
+    Route::resource('/categories', categoryController::class);
 });
